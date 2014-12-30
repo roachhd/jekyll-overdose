@@ -1,0 +1,17 @@
+---
+layout: default
+title: Portfolio
+id: index
+---
+
+
+<p>Hi, my name is Katie. I've kinda become obsessed with Jekyll, the tots amazeballz static site generator. I live in Melbourne. This site aims to present yet another Jekyll theme, worth links to other Jekyll themes. You can fork or just vote the source for this site at <a href="http://github.com/roachhd/jekyll-overdose/">GitHub</a>, an awesome place to put your work.</p>
+
+
+<ul class="posts">
+  {% for post in site.categories.work %}
+    <li>
+      <a href="{{ post.url }}"><strong>{{ post.title }}</strong>, {{ post.excerpt }}<span class="arrow">&rsaquo;</span></a>
+    </li>
+  {% endfor %}
+</ul>
