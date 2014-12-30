@@ -23,7 +23,7 @@ A minimal beginning for a dev blog. The demo for this also includes posts to a h
 - `gh-pages` for the demo page.
 
 
-#### Running locally
+### Running locally
 
 1. Clone this repo
 2. Install required dependencies with [Bundler](http://bundler.io/)
@@ -33,6 +33,12 @@ A minimal beginning for a dev blog. The demo for this also includes posts to a h
 
         bundle exec jekyll serve --watch
 4. Visit the site at [http://localhost:4000](http://localhost:4000)
+
+### Add Posts
+
+1. Posts to appear on `Blog` page just add `categories: blog` in the front matter in the post.
+
+2. Posts to appear on `Work` page (aka the index page) just add `categories: work` in the front matter.
 
 
 ### Author
