@@ -40,6 +40,8 @@ A minimal beginning for a dev blog. The demo for this also includes posts to a h
 
 2. Posts to appear on `Work` page (aka the index page) just add `categories: work` in the front matter.
 
+3. Easily change to whatever `category` you like. 
+
 
 ### Author
 
